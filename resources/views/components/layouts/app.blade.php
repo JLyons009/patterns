@@ -7,7 +7,7 @@
         <title>{{ $title ?? 'Page Title' }}</title>
         @vite('resources/css/app.css')
     </head>
-    <body class="bg-gray-50 font-serif text-xl">
+    <body class="bg-gray-50 font-sans text-xl">
         <header class="w-full h-10 pt-2 align-middle mb-10 fixed bg-gray-50 shadow-md">
             <div class="px-2 md:p-0 max-w-3xl mx-auto">
                 "Patterns" by Justin Lyons
