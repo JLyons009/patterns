@@ -21,6 +21,6 @@
             x-init="observe"
         ></div>
     @endif
-        <p class="mb-5 text-justify">{{ $paragraph }}</p>
+        <pre class="mb-5 text-justify font-serif">{{ $paragraph }}</pre>
     @endforeach
 </div>
