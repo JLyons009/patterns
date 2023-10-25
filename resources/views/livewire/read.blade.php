@@ -21,6 +21,10 @@
             x-init="observe"
         ></div>
     @endif
-        <pre class="mb-5 text-justify font-serif">{{ $paragraph }}</pre>
+        <div class="mb-5">
+            @foreach (explode("\n", $paragraph) as $line)
+                <p class="text-justify">{{ $line }}</p>
+            @endforeach
+        </div>
     @endforeach
 </div>
